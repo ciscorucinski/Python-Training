@@ -2,6 +2,9 @@
 
 Over the course of the class, I intend to go over the following themes.
 
+ * Computational Thinking
+ * Python Langauge
+
 ## Computational Thinking
 
 **Computational Thinking** is the process by which we use our knowledge of what computers can do in order for them to help solve problems. It is learning to think in ways which allow us, as humans, to solve problems more effectively and, when appropriate, use computers to help us do so. The power of computational thinking is that it applies to every other type of reasoning and allows people to think creatively and critically.
@@ -28,14 +31,14 @@ The following points will be broken down into components that will allow student
 # Additional Teaching Material
 
 ## YouTube Videos
- * Crash Course: Computer Science
+ * [Crash Course: Computer Science](https://www.youtube.com/playlist?list=PLME-KWdxI8dcaHSzzRsNuOLXtM2Ep_C7a)
 
-## Code.org
+## [Code.org](https://code.org)
  * Express Course Material
  * Code Blocks
  * Videos
  * Unplugged Activities
  
-## Brilliant.org
+## [Brilliant.org](https://brilliant.org/)
  * Video Lessons
  * Quizzes
