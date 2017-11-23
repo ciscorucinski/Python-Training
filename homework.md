@@ -1,5 +1,9 @@
-# Homework
+# Table of Contents
+- [x] [Week 1](#week-1)
+- [x] [Week 2](#week-2)
+- [ ] [Week 3](#week-3)
 
+# Homework
 
 ## Week 1
 
