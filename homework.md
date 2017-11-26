@@ -133,9 +133,6 @@ Humans CAN use base-10 numbers when writing software; the computer will simply c
   - [ ] 0000 0011
   - [ ] 0000 0110
   - [ ] 0000 1100
-  - [ ] 0010 0001
-  - [ ] 1000 1110
-  - [ ] 0100 1111 **Secondary question: What  does this binary number represent?** 
   - [ ] 0111 0000
   - [ ] 1110 0000
  
@@ -149,29 +146,30 @@ Humans CAN use base-10 numbers when writing software; the computer will simply c
  
  This conversion is a little harder to calculate. When going from a bigger base to a smaller base you need to use subtraction with a running-tally.
  
- Do the following conversions into `binary`
+ Do the following conversions into `binary`. Should be easy if you found the pattern in the previous section!!
  
 - [ ] 13
 - [ ] 26 **Note: this is `13 * 2`**. 
 - [ ] 52 **Note: this is `13 * 4` or `13 * 2 * 2`**.
 - [ ] 127
 - [ ] 128
-- [ ] 31415962 **Note: don't figure this out by hand. Go to [Google](google.com) and type in the search box `31415962 to binary`. Google will give you the answer!!**
+- [ ] 31415962 **Note: Go to [Google](google.com) and type in the search box `31415962 to binary`. Google will give you the answer!! Don't forget to remove the `0b` prefix**
 
-- [ ] 31415962 **Note: Split the binary number into 4 bytes with a space between each nibble (i.e. 2 bytes -> 0000 0000 - 0000 0000)**
+- [ ] 31415962 **Note: Give me the number as 4 bytes (32 bits) with spaces between each nibble (i.e. 2 bytes -> 0000 0000 0000 0000)**
 
 #### Ascii Conversion
 Look at this [Ascii chart](http://sticksandstones.kstrom.com/appen.html) and do the following conversion
 
  - [ ] 97 to Ascii
  - [ ] 65 to Ascii
- 
  - [ ] 0110 1111 to Ascii
  - [ ] 0100 1111 to Ascii
  
+ <!--
  ##### Pattern Review
  Look at the Ascii values and the decimal or binary numbers from above...
  
  - [ ] What is the difference between `97` and `65`? **Note: do subtraction**
- - [ ] What is the difference between `0110 1111` and `0100 1111`? **Note: do subtraction**
+ - [ ] What is the difference between `0110 1111` and `0100 1111`? **Note: do subtraction (bit subtraction)**
  - [ ] What decimal value is the difference between `0110 1111` and `0100 1111`?
+-->
