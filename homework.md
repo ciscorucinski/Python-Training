@@ -1,7 +1,8 @@
 # Table of Contents
 - [x] [Week 1](#week-1)
 - [x] [Week 2](#week-2)
-- [ ] [Week 3](#week-3)
+- [ ] Week 3 - skip
+- [x] [Week 4](#week-4)
 
 # Homework
 
@@ -71,3 +72,59 @@
   - [x] What are transistors?
   - [x] What are Logic gates? <br /> **2 possible answers**
   - [x] What are the 3 Logic gates talked about in the video?
+
+## Week 4
+
+This week, you were taught that computers don't work with random numbers of bits. They read a certain number of bits each time. The oldest computers read **8 bits** at a time. Today, 64-bit computers will only read **64 bits** at a time; not 63, not 8, just 64-bits.
+
+For this reason, whenever you write in binary, you should write *8 bits at a time* ( 0100 1101 ) divided into 2 groups of 4 bits.
+
+**Fun Fact:** a group of 4 bits is called a **nibble**.
+
+### Terminology
+
+Define the following terms 
+
+ - [ ] `bit`
+ - [ ] `byte`
+ 
+ **Also** give a few examples of the following 
+ 
+ - [x] `digits` - these are single numeral values of a base *(i.e base-10)* that make up numbers. <br /> **Examples:** `0`, `1`, ..., `9` 
+ 
+ - [ ] `int`
+ - [ ] `float`
+ - [ ] `char`
+ - [ ] `String`
+ 
+ ### Questions
+ 
+Decimal numbers are in base-10 and use 10 digits (0 - 9). This is a human-centered number system mostly because humans have 10 fingers. Computers don't have fingers and use a different base.
+ 
+ - [ ] What is the main base that computers use?
+ 
+Humans CAN use base-10 numbers when writing software; the computer will simply convert it to base-2 for you. However, if humans have to work with bits / bytes, they don't use base-10, and they usually don't use base-2 because you have to type a lot of zeros and ones. So, humans use a different base when working with bits / bytes.
+
+ - [ ] What is the base that humans usually use when working with bits and bytes? <br /> **Hint: it is a 'power of 2'**
+ - [ ] What is the name of 'that base'? <br /> **Note: Base-10 is called 'decimal'**
+ - [ ] What are the digits of 'that base'?
+ - [ ] What is the prefix to tell the computer this is a number in 'that base'? <br /> **Note: Binary numbers have the prefix '0b' (zero-b) (i.e. 0b10000000)** <br /> **This number is binary 10011100, not decimal 10,000,000 (ten million)**
+ 
+ ### Base Conversion
+ Numbers have `digits` and are in specific `positions`. The number `280` has 3 digits `2`, `8`, and `0`. The `0` is in the `ones` position, `8` in the `tens` position, and `2` in the `hundreds` position.
+ 
+ | `Decimal` | 10,000's | 1,000's | 100's   | 10's   | 1's    |     |
+ | -------   | -------- | ------- | ------- | ------ | ------ | --- |
+ | Step 1    |          |         | 2       | 8      | 0      |     |
+ |           |          |         |         |        |        |     |
+ | Step 2    |          |         | 2 (100) | 8 (10) | 0 (1)  |     |
+ | Step 3    |          |         | 200     | 80     | 0      | = 200 + 80 + 0 --> 280  |
+ 
+ 
+ #### Binary to Decimal Conversion
+ This conversion is easier to calculate. When going from a smaller base to a larger base all you need is multiplication and addition. With Binary to Decimal, all you need is addition.
+ 
+ 
+ 
+ #### Decimal to Binary Conversion
+ 
