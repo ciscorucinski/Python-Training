@@ -1,8 +1,8 @@
 # Table of Contents
 - [x] [Week 1](#week-1)
 - [x] [Week 2](#week-2)
-- [ ] Week 3 - skip
-- [x] [Week 4](#week-4)
+- [x] Week 3 - skip
+- [ ] [Week 4](#week-4)
 
 # Homework
 
