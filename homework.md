@@ -221,14 +221,12 @@ This is a 1-question review of [Crash Course Computer Science #6: Registers & RA
  ![screenshot_2017-11-24-20-07-58](https://user-images.githubusercontent.com/8707125/33544552-92df19f2-d91e-11e7-837a-32208696e0df.png)
  
  `Assembly code` is a version of machine code that uses some English words with memory locations ("Load_A 14" or "Add B A"). Early programmers always programmed using Assembly code. You also saw this in an earlier video. Check out the `RAM` in the picture below...
-</details>
  
  ![screenshot_2017-12-04-17-33-20](https://user-images.githubusercontent.com/8707125/33544542-8516a646-d91e-11e7-8fe2-821cd591a464.png)
  
  **Note:** Assembly code never gets stored in RAM! Only Machine Code (zeros and ones) gets stored in RAM. This picture is just an abstraction to help see what happens without converting all the binary numbers into "opcodes" and "memory addresses".
  
  - [ ] What is the difference between the `RAM` on both pictures? Both pictures have the same code; one is machine code and the other is Assembly code, but what is different between the two.
- 
  
  ### Programming Languages
  
@@ -287,6 +285,7 @@ The following picture will show the difference between low-level and high-level 
  
  **Note:** With all `While Statement`s and `For Loop`s, your code could loop many times!!
  
+ </details>
  
 <!-- ------------------------------------------------- -->
 
