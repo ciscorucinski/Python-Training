@@ -171,3 +171,64 @@ Look at this [Ascii chart](http://sticksandstones.kstrom.com/appen.html) and do 
  
 </details>
 
+## Week 5
+
+<details open>
+<summary>Click to expand...</summary>
+
+Last Friday, we downloaded and installed 2 items
+
+ - **JetBrains Toolbox App:** JetBrain is the name of a company that makes software for developers. JetBrains Toolbox is an app that is like a software manager for all JetBrain's products. It lets you launch their IDE's and your software projects in one spot. It also lets you easily update all the IDE's in one spot.
+ 
+ - **PyCharm:** an IDE that has all the tools required for a person or team to write, test, and run many different types of Python programs.
+ 
+We still need to download one more piece of software so you can actually write Python programs.
+
+ - [ ] [Python 3.6 SDK](https://www.python.org/downloads/). Make sure you select Python 3.6+ (NOT 2.7+). Use all default locations for installation!
+
+### Quick review of last week's homework
+
+- [ ] Base-10 uses the numerals `1`, `2`, `3`, `4`, `5`, `6`, `7`, `8`, and `9`. What are the numerals of `Hexidecimal`?
+- [ ] Binary numbers use the prefix `0b`. What is the prefix of `Hexidecimal` numbers?
+
+- [ ] Give me 3 examples of the following `int`, `float`, `char`, `string`, `byte` <br /> **Example of integer is `1`**
+
+Computers only read bytes. A 32-bit computer will read 4 bytes at a time (8 bits * 4 = 32 bits). An 8-bit computer will only read 1 byte at a time. 
+
+- [ ] Give the number `13` as a 1-byte number.
+- [ ] Convert the 1 byte number above to 2 bytes.
+- [ ] Convert the 1 byte number above to 3 bytes.
+- [ ] Convert the 1 byte number above to 4 bytes.
+
+- [ ] Give the number `31415962` as a 4-byte number.
+- [ ] Convert the 4 byte number `314159623` to 2 bytes. <br />**Note:** Use Microsoft Calculator or Google Search to convert this number
+- [ ] Convert the 4 byte binary number above to 1 byte (4 bytes -> 1 byte)
+- [ ] Convert the 1 byte binary number above to decimal (`314159623` as 1 bytes to decimal) <br />**Note:** the number will change and will become a different and smaller number. It will NOT have the decimal value of `314159623` anymore.
+
+Compare the above 1st four answers with the last four answers.
+- [ ] What COULD happen if you convert a 4 byte number into a 3 byte (or 2 byte or 1 byte) number? Is that good or bad?
+- [ ] What COULD happen if you convert a 1 byte number into a 2 byte (or 3 byte or 4 byte) number? Is that good or bad?
+
+### Quick review of last week's videos
+
+ `Machine code` is what computers "speak". In order for a computer to do something, machine code needs to be put in a computers memory. You saw this in an earlier video. Check out the `RAM` in the picture below...
+ 
+ 
+ 
+ `Assembly code` is a version of machine code that is slightly more human-readable. Early programmers always programmed using Assembly code. Nowadays, Assembly code is rarely used. You also saw this in an earlier video. Check out the `RAM` in the picture below...
+</details>
+ 
+ 
+
+<!-- ------------------------------------------------- -->
+
+<!--
+## Week x
+
+<details>
+<summary>Click to expand...</summary>
+
+Content
+
+</details>
+-->
