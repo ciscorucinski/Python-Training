@@ -194,15 +194,19 @@ We still need to download one more piece of software so you can actually write P
 
 - [ ] Give me 3 examples of the following `int`, `float`, `char`, `string`, `byte` <br /> **Example of integer is `1`**
 
+#### Base Conversions Review
+
 Computers only read bytes. A 32-bit computer will read 4 bytes at a time (8 bits * 4 = 32 bits). An 8-bit computer will only read 1 byte at a time. 
 
-- [ ] Give the decimal number `195` as a 1-byte binary number.
-- [ ] Convert the 1 byte number above to 2 bytes.
-- [ ] Convert the 1 byte number above to 3 bytes.
+- [ ] Step 1: Give the decimal number `195` as a 1-byte binary number.
+- [ ] Step 2: Convert the 1 byte number above to 2 bytes.
+- [ ] Step 3: Convert the 1 byte number above to 3 bytes.
 
-- [ ] Give the number `31415962` as a 4-byte number.
-- [ ] Convert the 4 byte number `314159623` to 1 byte. <br />**Note:** Use Microsoft Calculator or Google Search to convert this number
-- [ ] Convert the 1 byte binary number above to decimal (`314159623` as 1 bytes to decimal) <br />**Note:** the number will change and will become a different and smaller number. It will NOT have the decimal value of `314159623` anymore.
+-----------
+
+- [ ] Step 1: Give the number `31415962` as a 4-byte number.<br />**Note: Use Microsoft Calculator or Google Search to convert this number.**
+- [ ] Step 2: Convert the 4 byte number `314159623` to 1 byte. 
+- [ ] Step 3: Convert the 1 byte binary number above to decimal (`314159623` as 1 bytes to decimal) <br />**Note: the number will change and will become a different and smaller number. It will NOT have the decimal value of `314159623` anymore.**
 
 Compare the above 1st three answers with the last three answers.
 - [ ] What COULD happen to the decimal value if you convert a 4 byte number into a 3 byte (or 2 byte or 1 byte) number? Is that good or bad?
