@@ -184,7 +184,8 @@ Last Friday, we downloaded and installed 2 items
  
 We still need to download one more piece of software so you can actually write Python programs.
 
- - [ ] [Python 3.6 SDK](https://www.python.org/downloads/). Make sure you select Python 3.6+ (NOT 2.7+). Use all default locations for installation!
+ - [ ] Download [Python 3.6 SDK](https://www.python.org/downloads/). Make sure you select Python 3.6+ (NOT 2.7+). 
+ - [ ] Install Python 3.6. Use all default locations for installation!
 
 ### Quick review of last week's homework
 
@@ -231,13 +232,26 @@ This is a 1-question review of [Crash Course Computer Science #6: Registers & RA
  
  ### Programming Languages
  
+ Here is a summary of what programming languages are and why they were created.
+ 
  - [ ] Watch [Crash Course Computer Science #11: Programming Languages](https://www.youtube.com/watch?v=RU1u-js7db8)
  
+ - [ ] Pay attention to keywords such as `Assembler`, and `Compiler`. Listen to what they are and the difference between them!
+ - [ ] At 8:58, there is a snippet of text displayed in the video. Write the snippet down (19 words).
+ 
+ Late in the video (9:25 and later), they list a lot of programming languages by decade. 
+  - [ ] What are programming langauges that were created in the 1960's
+  - [ ] ...1970's
+  - [ ] ...1980's
+  - [ ] ...1990's
+  - [ ] ...2000's and 2010's
+ 
+ #### Review of Video #11
  As you can see from the above pictures, there is a `one-to-one` relationship between `Machine code` and  `Assembly code`. That means that **one line** of Assembly code gives **one line** of Machine code. With Assembly code, you tell the computer to work with memory (`LOAD_A 14` - "Load byte value at RAM address 14 into register A", or `Store_A 13` - "Store byte value in register A into RAM address 13"). 
  
  This is what a `low-level language` is. Low-level programming languages have you working with memory at a very detailed level. They take Assembly code and use an `Assembler` to convert it into machine code.
  
- `High-level language`s are human readable and kind of read like English sentences. They hide the detail of the memory from the programmer by using `variables` and `control flow`. One line of a high-level programming language will result in many lines of machine code. This `1-to-many` lines of code is done by a `compiler`.
+ `High-level language`s are human readable and kind of read like English sentences. They hide the detail of the memory from the programmer by using `variables` and `control flow`. One line of a high-level programming language will result in many lines of machine code. This `one-to-many` lines of code is done by a `compiler`.
  
 The following picture will show the difference between low-level and high-level programming languages. Keep in mind that Assembly code does NOT get stored in RAM. Only Machine code (zeros and ones) get stored in RAM!
 
@@ -245,9 +259,35 @@ The following picture will show the difference between low-level and high-level 
  
  Notice that Assembly Code uses 7 lines of code (Line 0, 1, 2, 3, 4, 14, and 15), but Python code only uses 3 lines of code. They are exactly the same code, but use different languages!!
  
- #### Statements and Functions
+ ### Statements and Functions
  
+ Here is a summary of basic programming ideas that you must understand. These are the most basic of ideas. You will use all of these ideas over and over again! Go over this video 2 or 3 time if you must.
+ 
+ **Note:** Python has a different "grammar" (syntax) then what is shown in the video below. 
  - [ ] Watch [Crash Course Computer Science #12: Statement & Functions](https://www.youtube.com/watch?v=l26oaHV7D40)
+ 
+ Define the following
+ - [ ] `Assignment Statement` + example code
+ - [ ] `Variable` + What do you think a variable represents? Think of the last few videos!
+ - [ ] `Initialize` + What do you initialize?
+ - [ ] `Control Flow Statements`
+ - [ ] `Conditional` + example code
+ - [ ] `Function` + example code + `Return Statement` (**Note:** around 3/4 way through video)
+ - [ ] `Libraries` (**Note:** near end of video)
+ 
+ #### Programming Statements
+ What is the general format of the following Conditional / Control-Flow Statements. Also give example usage.
+ - [ ] `If Statement` (3:23 - general format. 3:28 - example usage)
+ - [ ] `If-Else Statement` (3:44 - example usage only)
+ 
+ **Note:** With all `If Statements`, there are no loops. It decides if it should 
+ 
+ - [ ] `While Statement` (4:20 - general format. 4:44 - example usage)
+ - [ ] `For Loop` (5:53 - general format. 6:52 - example usage) 
+ 
+ **Note:** With all `While Statement`s and `For Loop`s, your code could loop many times!!
+ 
+ 
 <!-- ------------------------------------------------- -->
 
 <!--
