@@ -331,7 +331,7 @@ So far you know about a few types
  
  Here are a list of the Operators. 
  
- - [ ] For `Python Result`, I want you to use Python to figure out the answer! For Addition, type into Python `print(22 + 7)` and write the answer in the empty space
+ - [ ] For `Python Result`, I want you to use `GrokLearning.com` or `Snakify.org` to figure out the answer! For Addition, type into Python `print(22 + 7)` and write the answer in the empty space. For Exponent, type in `print(22 ** 7)` and write down the answer!  
  
  | Operation        | Python  | Python Result | Math   | 
  | ---------------- | :-----: | :-----------: | :----: |
