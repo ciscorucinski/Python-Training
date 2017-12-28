@@ -4,7 +4,8 @@
 - [x] Week 3 - skip
 - [x] [Week 4](#week-4)
 - [x] [Week 5](#week-5)
-- [ ] [](#)
+- [x] Skip weeks 6 - 7, and week 8
+- [ ] [Week 9](#week-9)
 
 # Homework
 
