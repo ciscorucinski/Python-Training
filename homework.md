@@ -3,7 +3,8 @@
 - [x] [Week 2](#week-2)
 - [x] Week 3 - skip
 - [x] [Week 4](#week-4)
-- [ ] [Week 5](#week-5)
+- [x] [Week 5](#week-5)
+- [ ] [](#)
 
 # Homework
 
@@ -173,7 +174,7 @@ Look at this [Ascii chart](http://sticksandstones.kstrom.com/appen.html) and do 
 
 ## Week 5
 
-<details open>
+<details>
 <summary>Click to expand...</summary>
 
 Last Friday, we downloaded and installed 2 items
@@ -290,7 +291,78 @@ The following picture will show the difference between low-level and high-level 
  **Note:** With all `While Statement`s and `For Loop`s, your code could loop many times!!
  
  </details>
+
+## Week 6
+
+Vacation
+
+## Week 7
+
+Vacation
+
+## Week 8
+
+Grok Learning
+
+<details open>
+<summary>Click to expand...</summary>
  
+## Week 9
+
+### Types
+
+So far you know about a few types
+
+ 1. **Integers** which are also called **ints** for short. They are *numbers* that contain the numerals `0 - 9` only.
+ 2. **Floating-point Numbers** which are called **floats**. They are *numbers* that contain the numerals `0 - 9` AND one decimal-point `.`
+ 3. **Strings** which are text. They are lists of *characters* that can contain `letters`, `numbers`, `spaces`, `symbols`, and text from other languages. 
+ 
+ As a side note Strings NEED to be inside of...
+ 
+  - `'...'` **single quotes** 
+  - `"..."` **double quotes** 
+  - `'''...'''` **triple single quotes** 
+  - `"""..."""` **triple double quotes** 
+  
+ ### Operations 
+ 
+ All the basic operators in Python work with numbers (`int`s and `float`s).
+ 
+ Here are a list of the Operators. 
+ 
+ - [ ] For `Python Result`, I want you to use Python to figure out the answer! For Addition, type into Python `print(22 + 7)` and write the answer in the empty space
+ 
+ | Operation        | Python  | Python Result | Math   | 
+ | ---------------- | :-----: | :-----------: | :----: |
+ | Addition         | 22 + 7  |             | 22 + 7
+ | Subtraction      | 22 - 7  |             | 22 - 7
+ | Multiplication   | 22 * 7  |            | ![22 multipled by 7](https://latex.codecogs.com/gif.latex?22&space;\times&space;7)
+ | Division         | 22 / 7  |  | ![22 divided by 7](https://latex.codecogs.com/gif.latex?22&space;\div&space;7)
+ | Integer Division | 22 // 7 |              | ![Floor of 22 divided by 7](https://latex.codecogs.com/gif.latex?\left&space;\lfloor&space;22&space;\div&space;7&space;\right&space;\rfloor)
+ | Modulo           | 22 % 7  |              | 22 mod 7
+ | Exponent         | 22 ** 7 |     | ![22 to the power of 7](https://latex.codecogs.com/gif.latex?22^{7})
+ 
+ The above all work on numbers, but two of them also work with `strings`!
+ 
+ - [ ] Which of the above operators work with `Strings`? Give an example of each. Also, what is the output out each?
+ 
+ ### Functions
+ 
+ You have learned from GrokLearning of 4 built-in Python functions plus one additional function from the teacher
+ 
+ 1. `print()`
+ 2. `input()`
+ 3. `len()`
+ 4. `int()`
+ 5. `float()`
+ 
+ - [ ] What do the above 5 functions do? Try to describe as much as possible. 
+ - [ ] What are the input `types` of each function? What goes between the parentheses `()`. Do `int`s work? `float`s? `String`s? All `String`s or special ones? What if there are no inputs?
+ - [ ] What is the one output `type` of each function?
+
+</details>
+
+
 <!-- ------------------------------------------------- -->
 
 <!--
