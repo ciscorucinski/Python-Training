@@ -366,7 +366,7 @@ So far you know about a few types
 
 ## Week 10
 
-<details>
+<details open>
 <summary>Click to expand...</summary>
 
 ### Snakify.org
@@ -410,7 +410,7 @@ In the picture below, the area I highlighted in green is **very important** to r
 <!--
 ## Week x
 
-<details>
+<details open>
 <summary>Click to expand...</summary>
 
 Content
