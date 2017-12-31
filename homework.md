@@ -6,6 +6,7 @@
 - [x] [Week 5](#week-5)
 - [x] Skip weeks 6 - 7, and week 8
 - [x] [Week 9](#week-9)
+- [ ] [Week 10](#week-10)
 
 # Homework
 
@@ -304,11 +305,11 @@ Vacation
 ## Week 8
 
 Grok Learning
+ 
+## Week 9
 
 <details>
 <summary>Click to expand...</summary>
- 
-## Week 9
 
 ### Types
 
@@ -363,6 +364,46 @@ So far you know about a few types
 
 </details>
 
+## Week 10
+
+<details>
+<summary>Click to expand...</summary>
+
+### Snakify.org
+
+#### Theory
+
+In class, we went over the `Theory` section that went over how to input and output data using the `input()` and `print()` functions. We also went over what happens when we add `integers` and `strings`. We found out that...
+
+ - Adding two integers does mathematical addition. `42 + 8` >> `50`
+ - Adding two strings does `string concatenation`. It combines two string together. `"Hello " + "world!"` >> `"Hello world!"`
+
+In the `Theory` section we also learned about `Casting`. Casting is changing one type of data to another type. Another word for casting is converting.
+
+We can cast `integers` to `floats`, `floats` to `integers`. We can also cast certain `strings` to `integers` or `floats`. We do these casts by the `int()` and `float()` functions.
+
+#### Steps (Homework)
+
+For homework, I want you to do all the remaining steps. What is important for homework is that you **read and understand** the 
+
+- [ ] Go to [Snakify.org >> Lesson 1. Input, print and numbers >> Steps](https://snakify.org/lessons/print_input_numbers/steps/1/).
+
+You should have done Steps 1 - 3.
+
+- [ ] For Sunday or Monday homework, I want you to finish `Step 4`
+- [ ] For Wednesday homework, I want you to finish `Step 5`
+- [ ] For Thrusday or Friday homework, I want you to finish `Step 6` - `Step 24`
+
+#### Notes
+
+What is **most important** for homework is that you **read and understand** the text of each problem. Just doing the coding is not enough. Also, **DON'T COPY AND PASTE** the code. You must type the code yourself and understand why you use that code or function.
+
+In the picture below, the area I highlighted in green is **very important** to read and understand. Please make sure you understand it before you go to the next section!
+
+![snakify](https://user-images.githubusercontent.com/8707125/34459747-96230870-ee3c-11e7-828a-290946e19035.PNG)
+
+
+</details>
 
 <!-- ------------------------------------------------- -->
 
