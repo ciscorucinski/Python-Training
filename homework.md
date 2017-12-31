@@ -384,14 +384,14 @@ We can cast `integers` to `floats`, `floats` to `integers`. We can also cast cer
 
 #### Steps (Homework)
 
-For homework, I want you to do all the remaining steps. What is important for homework is that you **read and understand** the 
+For homework, I want you to do all the remaining steps. Please **read and understand** the instructions and notes!!
 
 - [ ] Go to [Snakify.org >> Lesson 1. Input, print and numbers >> Steps](https://snakify.org/lessons/print_input_numbers/steps/1/).
 
 You should have done Steps 1 - 3.
 
-- [ ] For Sunday or Monday homework, I want you to finish `Step 4`
-- [ ] For Wednesday homework, I want you to finish `Step 5`
+- [ ] For Sunday or Monday homework, I want you to finish `Step 4`. Do more if you want.
+- [ ] For Wednesday homework, I want you to finish `Step 5`. Do more if you want.
 - [ ] For Thrusday or Friday homework, I want you to finish `Step 6` - `Step 24`
 
 #### Notes
