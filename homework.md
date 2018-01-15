@@ -403,14 +403,56 @@ In the picture below, the area I highlighted in green is **very important** to r
 
 ![snakify](https://user-images.githubusercontent.com/8707125/34459747-96230870-ee3c-11e7-828a-290946e19035.PNG)
 
+</details>
+
 ## Week 11
 
 <details open>
 <summary>Click to expand...</summary>
 
+### Review
 
+What is the Python mathematically operators for the following items. What do you have to type into Python to do the following?
 
-</details>
+ - [ ] addition
+ - [ ] subtraction
+ - [ ] multiplication
+ - [ ] division
+ - [ ] exponents
+ - [ ] integer division
+ - [ ] modulus (remainder)
+
+### Builtin Functions
+
+You have learned about several built-in functions that come with Python. These include `print()`, `input()`, `len()`, `int()`, `float()`, and `str()`. There are a lot more that you will learn over time.
+
+### Module Functions
+
+When there isn't a function that you **need**, there **might** be some code that someone else wrote that you can use. 
+
+This code that someone else wrote that you can use in your program is in a `module`. To add this code to your program, you use the `import x` statement.
+
+#### Math Module
+
+The import statement that you learned this past week is the `import math` statement. This is a bunch of functions and variables that you can use that deal with math.
+
+You have access to Math constants such as the `math.PI` variable or to Math functions such as `math.sqrt()` function.
+
+When ever you need to access these variables or functions, then you need to `import math`.
+
+##### Review
+
+- [ ] Filling in the missing **Math Notation** and **usage** columns and give 3 examples of use
+
+| Function   | Math Notation | Usage | Description |
+| ---------- | :-----------: | ----- | ----------- |
+| `math.floor(x)` | ![Floor of x](https://latex.codecogs.com/gif.latex?\left&space;\lfloor&space;x&space;\right&space;\rfloor) |  `math.floor(4.01) == 4`</br> `math.floor(4.99) == 4`</br> `math.floor(4.01 + 4.99) == 9` | Return the floor of x. |
+| `math.ceil(x)`  | ![Ceiling of x](https://latex.codecogs.com/gif.latex?\left&space;\lceil&space;x&space;\right&space;\rceil) | `math.ceil(4.01) == 5`</br> `math.ceil(4.99) == 5`</br> `math.ceil(4.01 + 4.99) == 9` | Return the ceiling of x. |
+| `math.sqrt(x)`  |    |    | Return the square root of x. |
+| `math.log(x)`   |    |    | Return the natural logarithm of x (base e). </br>The mathematical constant e = 2.71828... |
+| `math.log(x, base)`| |    | Return the logarithm of x to the given base. |
+| `math.sin(x)`   |    |    | Return the sine of x radians. |
+| `math.asin(x)`  |    |    | Return the arcsine of x, in radians. </br>**Arcsine is the inverse of sine** |
 
 </details>
 
