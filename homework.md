@@ -6,7 +6,8 @@
 - [x] [Week 5](#week-5)
 - [x] Skip weeks 6 - 7, and week 8
 - [x] [Week 9](#week-9)
-- [ ] [Week 10](#week-10)
+- [x] [Week 10](#week-10)
+- [x] [Week 11](#week-11)
 
 # Homework
 
@@ -366,7 +367,7 @@ So far you know about a few types
 
 ## Week 10
 
-<details open>
+<details >
 <summary>Click to expand...</summary>
 
 ### Snakify.org
@@ -402,6 +403,14 @@ In the picture below, the area I highlighted in green is **very important** to r
 
 ![snakify](https://user-images.githubusercontent.com/8707125/34459747-96230870-ee3c-11e7-828a-290946e19035.PNG)
 
+## Week 11
+
+<details open>
+<summary>Click to expand...</summary>
+
+
+
+</details>
 
 </details>
 
