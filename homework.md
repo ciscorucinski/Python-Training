@@ -446,8 +446,8 @@ When ever you need to access these variables or functions, then you need to `imp
 
 | Function   | Math Notation | Usage | Description |
 | ---------- | :-----------: | ----- | ----------- |
-| `math.floor(x)` | ![Floor of x](https://latex.codecogs.com/gif.latex?\left&space;\lfloor&space;x&space;\right&space;\rfloor) |  `math.floor(4.01) == 4`</br> `math.floor(4.99) == 4`</br> `math.floor(4.01 + 4.99) == 9` | Return the floor of x. |
-| `math.ceil(x)`  | ![Ceiling of x](https://latex.codecogs.com/gif.latex?\left&space;\lceil&space;x&space;\right&space;\rceil) | `math.ceil(4.01) == 5`</br> `math.ceil(4.99) == 5`</br> `math.ceil(4.01 + 4.99) == 9` | Return the ceiling of x. |
+| `math.floor(x)` | ![Floor of x](https://latex.codecogs.com/gif.latex?\left&space;\lfloor&space;x&space;\right&space;\rfloor) |  `math.floor(4.01) == 4`</br> `math.floor(4.99) == 4`</br> `math.floor(4.01 + 4.99) == 9` | Return the floor of x. </br>Similar to always round down. |
+| `math.ceil(x)`  | ![Ceiling of x](https://latex.codecogs.com/gif.latex?\left&space;\lceil&space;x&space;\right&space;\rceil) | `math.ceil(4.01) == 5`</br> `math.ceil(4.99) == 5`</br> `math.ceil(4.01 + 4.99) == 9` | Return the ceiling of x. </br>Similar to always round up. |
 | `math.sqrt(x)`  |    |    | Return the square root of x. |
 | `math.log(x)`   |    |    | Return the natural logarithm of x (base e). </br>The mathematical constant e = 2.71828... |
 | `math.log(x, base)`| |    | Return the logarithm of x to the given base. |
