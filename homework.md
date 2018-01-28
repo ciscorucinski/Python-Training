@@ -462,7 +462,93 @@ When ever you need to access these variables or functions, then you need to `imp
 <details open>
 <summary>Click to expand...</summary>
 
+### What We Did Last Class
+This week you learned how to program in the **PyCharm** IDE. Using this IDE allows you to save your programs and code to your computer. It also allows you to do many more things. Remember the <kbd>Alt</kbd> + <kbd>Enter</kbd> shortcut to fix issues? That is one of the many features of an IDE like PyCharm.
 
+#### Code
+Anyways, we started to build an actual program that **emulated** hardware boolean logic gates such as the `And Gate`, `Or Gate`, and `Not Gate`. Those were **basic** gates. We also created some **composite** gates that *used* those basic gates such as the `Xor Gate`, `Nand Gate`, and `Nor Gate`.
+
+Next, we started to build some parts of the `Arithmetic and Logic Unit` (called the **ALU**). We built a simple `Half Adder` which only added 2 bits together.
+
+#### Testing
+I also showed you how to **test** your code. We did that with the `assert` keyword along with the **equals operator** (`==`). 
+
+For testing, there are two ways to tests. You *could*...
+
+ - Write your tests first, then your code. **(recommended)**
+ - Write your code first, then your tests.
+
+### What You Will Do (Homework)
+
+You will write the code for a **Full Adder**. The **Full Adder** is used to add 3 bits together (bit 1 + bit 2 + carry bit). It will also output 2 bits (carry bit and sum bit)
+
+So as a quick recap. The **Full Adder** should have the following...
+ - Function Name: `full_adder`
+ - Inputs: 3 (Carry, Bit A, Bit B)
+ - Outputs: 2 (Carry, Sum)
+ 
+ ![Full Adder](https://user-images.githubusercontent.com/8707125/35480013-60b36d66-0448-11e8-8787-115f339d6053.png)
+ 
+#### Step 1
+ - [ ] Write out the **definition** of the **Full Adder** function.
+ 
+ 
+**Note 1:** Here is what a function definition looks like... 
+ 
+     def function_name(input1, input2):
+         pass
+         
+**Note 2:** The `def` keyword for **definition** You will **define a function**. Also, we will use the `pass` keyword to stop PyCharm from showing errors and warnings.
+     
+#### Step 2
+ - [ ] Write your `assert` tests for the `Full Adder` in the test module. 
+ - [ ] `import` the `full_adder` function into the test module
+ 
+| Test # || Input </br>Carry | Input </br>A | Input </br>B || Output </br>Carry | Output </br>Sum |
+| ------ | --- | --- | --- | --- | --- | --- | --- |
+| Test 1 || 0 | 0 | 0 || 0 | 0 |
+| Test 2 || 0 | 0 | 1 || 0 | 1 |
+| Test 3 || 0 | 1 | 0 || 0 | 1 |
+| Test 4 || 0 | 1 | 1 || 1 | 0 |
+| Test 5 || 1 | 0 | 0 || 0 | 1 |
+| Test 6 || 1 | 0 | 1 || 1 | 0 |
+| Test 7 || 1 | 1 | 0 || 1 | 0 |
+| Test 8 || 1 | 1 | 1 || 1 | 1 |
+
+Now that you have written your tests for the **Full Adder** you can now code it.
+
+#### Step 3
+ - [ ] Write your **Full Adder** code within the `Adder` module. *(Where the `Half Adder` is located)*
+ 
+ Here is a diagram for the **Full Adder**
+![Full Adder Diagram](https://user-images.githubusercontent.com/8707125/35480016-7474db50-0448-11e8-982f-0b55f6159008.png)
+
+**Note 1:** Using 5 variables might be useful here...
+
+    half_adder1_result = ...    # Use the half_adder() function
+    half_adder2_result = ...
+    or_result = ...
+    carry = ...
+    sum = ...
+    
+    return carry, sum
+    
+**Note 2:** How do you get the **Carry Bit** or the **Sum bit** from a **half_adder()** result?
+ 
+ If you look at the `half_adder()` function. You `return` the **carry bit** 1st, and the **sum bit** 2nd. Therefore...
+ 
+     half_adder_result = half_adder(a, b)
+     carry = half_adder_result[0]           # [0] means get 1st item
+     sum = half_adder_result[1]             # [1] means get 2nd item
+                                            # [2] menas 3rd item, but there is not 3rd item, so you will get an error
+                                            # ...
+                                            # [99] means 100th item 
+                                            # ...
+                                            # [n] means (n-1) item 
+
+#### Step 4
+- [ ] Run your tests to make sure the code works. 
+- [ ] Fix any issues that you find.
 
 </details>
 
