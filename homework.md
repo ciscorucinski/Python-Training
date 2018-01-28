@@ -8,6 +8,7 @@
 - [x] [Week 9](#week-9)
 - [x] [Week 10](#week-10)
 - [x] [Week 11](#week-11)
+- [ ] [Week 12](#week-12)
 
 # Homework
 
@@ -407,7 +408,7 @@ In the picture below, the area I highlighted in green is **very important** to r
 
 ## Week 11
 
-<details open>
+<details>
 <summary>Click to expand...</summary>
 
 ### Review
@@ -455,6 +456,16 @@ When ever you need to access these variables or functions, then you need to `imp
 | `math.asin(x)`  |    |    | Return the arcsine of x, in radians. </br>**Arcsine is the inverse of sine** |
 
 </details>
+
+## Week 12
+
+<details open>
+<summary>Click to expand...</summary>
+
+
+
+</details>
+
 
 <!-- ------------------------------------------------- -->
 
